@@ -1,0 +1,21 @@
+<form [formGroup]="registerform"> 
+    <div class="register container">
+        <div class="mb-3">
+            <label for="uid" class="form-label">userid</label>
+            <input type="text" class="form-control" id="uid" name="userid" formControlName="uid">
+          </div>
+
+          <div class="mb-3">
+            <label for="uname" class="form-label">username</label>
+            <input type="text" class="form-control" id="uname" name="username" formControlName="uname">
+          </div>
+
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="Pswd" name="password" formControlName="pswd">
+          </div>
+         
+          <button type="submit" class="btn btn-success" (click)="register()">register</button>
+    </div>
+    
+  </form>

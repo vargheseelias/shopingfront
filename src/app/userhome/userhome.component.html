@@ -1,0 +1,128 @@
+<form class="formclass"[formGroup]="buyform">
+  <div class="userhome container">
+    <h1 class="head">Way to shoping</h1>
+    <h2 class="head">Welcome </h2>
+    <br><br>
+
+    <div class="search mb-1">
+      <label for="uid" class="form-label">serach by product name</label>
+      <input type="search" class="form-control" id="search" name="search" formControlName="search">
+      <button type="submit" class="btn btn-secondary" (click)="search()">search</button>
+
+    </div>
+
+    <!-- <div class="input-group">
+      <div class="form-outline">
+        <input type="text" id="myInput" onkeyup="search()">
+        <label class="form-label" for="form1">Search</label>
+      </div>
+    </div> -->
+
+
+  
+    <div class="shopdiv continer">
+      <table class="tbclass" id="tbl">
+        <tr>
+          <td>
+            <div class="card" style="width: 18rem" name="nike"> 
+              <img
+                src="https://rukminim1.flixcart.com/image/800/960/keekmfk0-0/shoe/b/p/k/bouncer-01cgryorng-6-asian-grey-original-imafv3h4hzjgvw2z.jpeg?q=50"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">snekers</h5>
+                <p class="card-text">Bouncer-01 Running shoes for boys</p>
+                <button class="btn-success" (click)="buy()">buy</button>
+              </div>
+            </div>
+          </td>
+  
+          <td>
+            <div class="card card" style="width: 18rem" name="puma">
+              <img
+                src="https://rukminim1.flixcart.com/image/800/960/kn4xhu80/shoe/d/4/q/11-hks76-reebok-black-semi-orange-fla-original-imagfwftjscfdn5w.jpeg?q=50"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">snekers</h5>
+                <p class="card-text">Running Shoes For Men (Black) boxed</p>
+                <button class="btn-success" (click)="buy()">buy</button>
+              </div>
+            </div>
+          </td>
+  
+          <td>
+            <div class="card" style="width: 18rem" name="air">
+              <img
+                src="https://rukminim1.flixcart.com/image/800/960/jtrjngw0/shoe/w/x/a/oxygen-9-beerock-white-black-original-imaehhfyknsqzkv7.jpeg?q=50"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">snekers</h5>
+                <p class="card-text">
+                  Oxygen Running Shoes For Men (White, Black)
+                </p>
+                <button class="btn-success" (click)="buy()">buy</button>
+              </div>
+            </div>
+          </td>
+        </tr>
+  
+        <tr>
+          <td>
+            <div class="card" style="width: 18rem" name="nike">
+              <img
+                src="https://rukminim1.flixcart.com/image/800/960/kgiaykw0-0/shoe/h/l/e/lalit-444-8-believe-black-original-imafwqjgcgzgejmj.jpeg?q=50"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">snekers</h5>
+                <p class="card-text">
+                  Sneakers for men(black_7) Sneakers For Men (Black)
+                </p>
+                <button class="btn-success" (click)="buy()">buy</button>
+              </div>
+            </div>
+          </td>
+  
+          <td>
+            <div class="card" style="width: 18rem" name="puma">
+              <img
+                src="https://rukminim1.flixcart.com/image/800/960/kgiaykw0-0/shoe/h/l/e/lalit-444-8-believe-black-original-imafwqjgcgzgejmj.jpeg?q=50"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">snekers</h5>
+                <p class="card-text">
+                  Sneakers for men(black_7) Sneakers For Men (Black)
+                </p>
+                <button class="btn-success" (click)="buy()">buy</button>
+              </div>
+            </div>
+          </td>
+  
+          <td>
+            <div class="card card" style="width: 18rem" name="air">
+              <img
+                src="https://rukminim1.flixcart.com/image/800/960/kn4xhu80/shoe/d/4/q/11-hks76-reebok-black-semi-orange-fla-original-imagfwftjscfdn5w.jpeg?q=50"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">snekers</h5>
+                <p class="card-text">Running Shoes For Men (Black) boxed</p>
+                <button class="btn-success" (click)="buy()">buy</button>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  
+</form>

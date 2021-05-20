@@ -1,0 +1,28 @@
+.head{
+    align-items: center;
+    margin-left: 40%;
+    margin-top:25px;
+}
+
+.shopcard{
+    width: 25px;
+    height: 40px;
+}
+
+.shopdiv{
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.card-img-top{
+    width: 150px !important;
+    height:100px !important;
+}
+
+.userhome{
+    background-color: darkseagreen;
+}
+
+.search{
+    width: 25%;
+}
